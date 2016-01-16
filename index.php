@@ -317,7 +317,16 @@
 							</div>
 
 							<!-- google maps -->
-							<?php $google_map = get_field( 'ag_google_map' ); ?>
+							<?php 
+								$google_map = get_field( 'ag_google_map' );
+								if ( ! $google_map ) {
+									$google_map = array(
+										'address' => '',
+										'lat'     => '',
+										'lng'     => '',
+									);
+								}
+							?>
 							<div class="google-map" data-lat="<?php echo esc_attr( $google_map['lat'] ); ?>" data-lng="<?php echo esc_attr( $google_map['lng'] ); ?>">
 								<div class="form-group">
 									<label for="acf-google-map-search">Google Map</label>
