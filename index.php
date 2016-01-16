@@ -25,7 +25,7 @@
 			<nav>
 				<ul class="nav nav-pills pull-right">
 					<li role="presentation"><a href="http://github.com/airesvsg/acf-to-rest-api" target="_blank">Plugin</a></li>
-					<li role="presentation"><a href="http://github.com/airesvsg/acf-to-rest-api-examples" target="_blank">Example</a></li>
+					<li role="presentation"><a href="http://github.com/airesvsg/acf-to-rest-api-example" target="_blank">Example</a></li>
 				</ul>
 			</nav>
 			<a href="http://github.com/airesvsg/acf-to-rest-api" target="_blank"><h3 class="text-muted">ACF to REST API</h3></a>
