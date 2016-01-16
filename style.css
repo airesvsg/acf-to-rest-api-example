@@ -1,0 +1,88 @@
+/*
+Theme Name: WP to REST API - Example
+Theme URI: http://github.com/airesvsg/acf-to-rest-api
+Author: Aires Gonçalves
+Author URI: https://github.com/airesvsg
+Description: Example for the plugin ACF to REST API ( issue #2 )
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form {
+  padding-top: 10px;
+}
+
+.container {
+  max-width: 550px;
+}
+
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.footer {
+	margin-top: 20px;
+  padding-top: 20px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+}
+
+.nav-tabs, 
+.tab-pane {
+  margin: 15px 0;
+}
+
+.thumbnail .btn {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.thumbnail:hover .btn {
+  display: block;
+}
+
+.checkbox-group {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.checkbox-group .checkbox-inline {
+  padding-left: 0;
+}
+
+.google-map .map {
+  width: 550px;
+  height: 300px;
+}
+
+.bg-warning {
+  padding: 10px;
+}
+
+#ribbon img {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border: 0;
+}
