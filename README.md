@@ -16,7 +16,7 @@ Dependencies
 
 Live Demo
 ==
-![Live Demo](http://airesgoncalves.com.br/screenshot/assets/buttons/live-demo.png)
+[![Live Demo](http://airesgoncalves.com.br/screenshot/assets/buttons/live-demo.png)](http://airesgoncalves.com.br/acf-to-rest-api)
 
 Screenshot
 ==
