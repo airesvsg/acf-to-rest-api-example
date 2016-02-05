@@ -213,7 +213,7 @@ jQuery( function( $ ) {
 			map			: map
 		});
 
-	    google.maps.event.addListener(autocomplete, 'place_changed', function( e ) {
+		google.maps.event.addListener(autocomplete, 'place_changed', function( e ) {
 			var place   = this.getPlace();
 
 			if ( place.geometry ) {
@@ -247,7 +247,7 @@ jQuery( function( $ ) {
 					lngFld.val( lng );
 				}
 			} );
-	    } );
+		} );
 		
 		$( '[href="#cnt-jquery"]' ).on( 'shown.bs.tab', function() {
 			var center = map.getCenter();
