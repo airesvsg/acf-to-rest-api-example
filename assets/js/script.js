@@ -22,7 +22,7 @@ jQuery( function( $ ) {
 
 		$.ajax( {
 		    url: url,
-		    method: 'POST',
+		    method: 'PUT',
 		    beforeSend: function ( xhr ) {
 		        xhr.setRequestHeader( 'X-WP-Nonce', WP_API_Settings.nonce );
 		    },
