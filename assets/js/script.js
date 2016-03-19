@@ -5,11 +5,12 @@ jQuery( function( $ ) {
 	//----------------------------------------
 
 	$( 'form' ).submit( function() {
-		var _this = $( this );
-		var url   = _this.attr( 'action' );
-		var data  = _this.serializeArray();
-		var btn   = _this.find( 'button[type="submit"]' );
-		var modal = $( '#modalResponse' );
+		var _this  = $( this );
+		var url    = _this.attr( 'action' );
+		var method = _this.attr( 'method' );
+		var data   = _this.serializeArray();
+		var btn    = _this.find( 'button[type="submit"]' );
+		var modal  = $( '#modalResponse' );
 
 		if ( $( '#ag_wysiwyg_editor' ).length && typeof tinyMCE !== 'undefined' ) {
 			data.push( { 
@@ -22,7 +23,7 @@ jQuery( function( $ ) {
 
 		$.ajax( {
 		    url: url,
-		    method: 'PUT',
+		    method: method,
 		    beforeSend: function ( xhr ) {
 		        xhr.setRequestHeader( 'X-WP-Nonce', WP_API_Settings.nonce );
 		    },

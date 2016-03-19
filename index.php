@@ -42,12 +42,12 @@
 
 			<div class="col-lg-12">	           	
 				
-				<form action="<?php echo esc_url( $url ); ?>" method="POST">
+				<form action="<?php echo esc_url( $url ); ?>" method="<?php echo $edit ? 'PUT' : 'POST'; ?>">
 
 					<?php if( ! $edit ) : ?>
 						<div class="form-group">
 							<label for="acf-title">Title</label>
-							<input type="text" name="fields[title]" class="form-control" id="acf-title">
+							<input type="text" name="title" class="form-control" id="acf-title">
 						</div>
 
 						<div class="form-group">
